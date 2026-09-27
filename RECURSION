@@ -1,0 +1,7 @@
+def fun(n):
+    if n==9:
+        return
+    print(n)
+    n=n+1
+    fun(n)
+fun(1)
